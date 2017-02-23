@@ -1,5 +1,5 @@
 import { Component } from '@angular/core'
-import { ItemService } from './item.service'
+import { ItemService, Item } from './item.service'
 
 @Component({
 	selector: 'item',
@@ -15,17 +15,28 @@ import { ItemService } from './item.service'
 })
 export class ItemComponent{
 	ID: string;
-	// item: Object;
 	name: string;
 	image_url: string;
 	description: string;
+	item: Item;
 	constructor(itemService :ItemService){
-		// let item = itemService.getItems();
-		// console.log(item.description);
-		
-		this.ID = itemService.getItemID();
-		this.name = itemService.getItemName();
-		this.image_url = itemService.getItemImage();
-		this.description = itemService.getItemDescription();
+
+		itemService.getItems().subscribe(
+			item => {console.log(item.description)},
+			error => console.error('Error: '), 
+			() => console.log("completed!")
+			);
+		// console.log(item);
+		console.log(this.item);
+		// this.name = this.item.name;
+		// this.ID = this.item.ID;
+		// this.image_url = this.item.image_url;
+		// this.description = this.item.description;
+
+		// this.item = itemService.getItems();
+		// this.ID = itemService.getItemID();
+		// this.name = itemService.getItemName();
+		// this.image_url = itemService.getItemImage();
+		// this.description = itemService.getItemDescription();
 	} 
 }

@@ -4,7 +4,7 @@ var path = require("path");
 var bodyParser = require('body-parser');
 // var http = require('http');
 
-var json = require('../products.json');
+var json = require('../p.json');
 // app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(express.static(__dirname + '/../'));
@@ -20,7 +20,9 @@ app.get("/", function(req, res){
 });
 
 app.get("/items", function(req, res){
-	res.send(json[req.query.id]);
+	// res.send(json[req.query.id]);
+	console.log(json["EVGA_GTX_1080"]);
+	res.json(json["EVGA_GTX_1080"]);
 });
 
 // app.get("*", function(req,res){

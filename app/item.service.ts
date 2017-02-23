@@ -15,8 +15,21 @@ export class ItemService {
     getItems(): Observable<Item>{
 		// return this.http.get(this.url).toPromise().then((res: Response) => res.json().data);
 		// console.log(this.http.get(this.url).map(response => response.json()));
+		// let items: Item[];
+		// this.http.get(this.url).map(response => response.json()).subscribe(
+		// 	res => {
+		// 		console.log(res);
+		// 		console.log(typeof res);
+		// 	},
+		// 	error => console.error('Error: '), 
+		// 	() => console.log("completed!")
+		// 	);;
 		return this.http.get(this.url).map(response => response.json());
 	}
+
+	// onGetItems() {
+
+	// }
 
 	// getItemName(): string{
 	// 	// return this.http.get(`${this.url}/${body['id']}`).map((res: Response) => res.json());

@@ -20,9 +20,7 @@ app.get("/", function(req, res){
 });
 
 app.get("/items", function(req, res){
-	console.log(req.originalUrl);
-	// console.log(req.params.id);
-	res.send(json);
+	res.send(json[req.query.id]);
 });
 
 // app.get("*", function(req,res){

@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 var path = require("path");
 var bodyParser = require('body-parser');
-var http = require('http');
+// var http = require('http');
 
 var json = require('../products.json');
 // app.set('view engine', 'ejs');

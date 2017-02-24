@@ -9,7 +9,7 @@ import { ItemService, Item } from './item.service'
             <img src="res/{{item.image_url}}" class="item-image">
             <h3>{{item.name}}</h3>
             <ul class="item-text">{{item.description}}</ul>
-            <button>Add to cart</button>
+            <button onClick="addToCart(this.parentNode.id)">Add to cart</button>
         </div>
         `,
     providers: [ItemService]

@@ -1,0 +1,24 @@
+#logo {
+	width: 100px;
+	height: 100px;
+}
+
+#item-container {
+	text-align: center;
+}
+
+.item {
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+	vertical-align: top;
+	border: 1px solid black;
+	margin: 25px;
+	padding: 20px;
+	display: inline-block;
+}
+
+.item-image {
+	width: 200px;
+	height: auto;
+}

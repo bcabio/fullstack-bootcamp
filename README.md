@@ -9,3 +9,11 @@ Here's how each day of the week will look like!
 - Wednesday: Learn the basics of back-end development and asynchronous programming concepts with Node.JS and Express.<br>
 - Thursday: You'll be able to rewrite your webpage with Angular 2 - Google's solution to making fast, cross-compatible web apps.<br>
 - Friday: Learn the basics of CRUD operations with a MongoDB database and wrap up the last of your web app!
+
+
+##Directory Layout##
+- Day 1 contains the project created at the end of the first day of fullstack-bootcamp. It is an example of a basic static website.
+- The storeProject branch contains the project files needed to start Day 2 of the bootcamp
+
+- Day 2 contains the final project needed for starting Day 3 of the bootcamp.
+

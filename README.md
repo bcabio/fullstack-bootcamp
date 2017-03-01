@@ -31,9 +31,7 @@ Here's how each day of the week will look like!
 
 3. [day_2-final](./Day\ 2/day_2-final) is what day 2 of fullstack bootcamp was intended to create. It is a more complete version of 'day_1-project'. Use this project folder to start on day 3 of fullstack bootcamp.
 
----
-
-Day 3, Day 4, and Day 5 will be updated as the bootcamp progresses.
+*Day 3, Day 4, and Day 5* will be updated as the bootcamp progresses.
 
 
 ###storeProject branch###

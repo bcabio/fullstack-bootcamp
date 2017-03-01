@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>ExampleStore.com: Online shopping!</title>
+    <link type="text/css" rel="stylesheet" href="css/normalize.css">
+    <link type="text/css" rel="stylesheet" href="css/main.css">
+    <script src="https://use.fontawesome.com/d67798201c.js"></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li id="logoItem">
+                <img src="res/ECorp.png" id="logo">
+            </li>
+            <li>
+                <div id="searchbar">
+                    <search></search>
+                </div>
+            </li>
+            <li id="viewCart">
+                <button onClick="toggleCartView()">
+                    <i class="fa fa-2x fa-shopping-cart"></i>
+                </button>
+            </li>
+        </ul>
+    </nav>
+    <div id="content">
+        <div id="item-container"></div>
+        <div id="toast" style="opacity:0"></div>
+
+        <div id="cart" class="hide"></div>
+    </div>
+
+    <script src="js/products.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/search.js"></script>
+
+</body>
+</html>

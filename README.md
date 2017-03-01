@@ -16,7 +16,7 @@ Here's how each day of the week will look like!
 
 ###master branch###
 
-*Day 1* contains 3 directories:
+**Day 1** contains 3 directories:
 
 1. [introduction-project](./Day\ 1/introduction-project/) is the project that was used to introduce basic HTML and CSS concepts.
 
@@ -24,7 +24,7 @@ Here's how each day of the week will look like!
 
 3. [day_1-final](./Day\ 1/day_1-final) is what day 1 of fullstack bootcamp was intended to create. It is a more complete version of 'day_1-project'. Use this project folder to start on day 2 of fullstack bootcamp.
 
-*Day 2* contains 3 directories:
+**Day 2** contains 3 directories:
 1. [day_2-template](./Day\ 2/day_2-template) is the project folder used during day 2 of fullstack bootcamp to test out CSS animations and play with SASS/SCSS.
 
 2. [day_2-project](./Day\ 2/day_2-project) is the project created at the end of fullstack-bootcamp day 2. It is a dynamic web page with CSS animations and JavaScript code.

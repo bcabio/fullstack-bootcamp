@@ -46,7 +46,8 @@ nav {
     margin: 0 auto;
     margin-left: 20px;
     margin-bottom: 40px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
     #item-container .item .item-image {
       max-width: 200px;
       max-height: 200px; }
@@ -54,6 +55,13 @@ nav {
       text-align: left;
       white-space: pre-line;
       display: none; }
+
+.item:hover {
+	animation-name: bounce;
+	animation-duration: 1s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}
 
 .item:hover > .item-text {
   display: inline-block; }
@@ -110,5 +118,19 @@ nav {
   right: 20px;
   animation-name: fade;
   animation-duration: 2s; }
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0); }
+  50% {
+    transform: translateY(10px); }
+  100% {
+    transform: translateY(0); } }
+
+@keyframes bounce {
+	0% {transform: translateY(0);}
+	50% {transform: translateY(10px);}
+	100% {transform: translateY(0);}
+}
 
 /*# sourceMappingURL=main.css.map */

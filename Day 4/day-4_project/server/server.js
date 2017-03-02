@@ -1,6 +1,5 @@
 var express = require('express');
 var app = express();
-var path = require("path");
 var bodyParser = require('body-parser');
 
 var json = require('../products.json');
@@ -12,11 +11,7 @@ const PORT = 5000;
 app.set('port', (process.env.PORT || 5000));
 
 app.get("/", function(req, res){
-  res.sendFile('index.html');
-});
-
-app.get("/items", function(req, res){
-	res.json(json);
+	res.sendFile('index.html');
 });
 
 app.listen(app.get('port'),function(){

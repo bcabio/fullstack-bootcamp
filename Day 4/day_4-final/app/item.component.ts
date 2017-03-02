@@ -4,7 +4,6 @@ import { ItemService, Item } from './item.service'
 @Component({
 	selector: 'item',
 	template: `
-
 		<div *ngFor="let item of itemList" class="item" id="{{item.ID}}">
             <img src="res/{{item.image_url}}" class="item-image">
             <h3>{{item.name}}</h3>
@@ -19,7 +18,7 @@ export class ItemComponent{
 	name: string;
 	image_url: string;
 	description: string;
-	// item: Item;
+
 	itemList: Array<Item> = []; 
 	constructor(itemService :ItemService){
 

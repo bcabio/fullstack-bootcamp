@@ -27,12 +27,17 @@ Here's how each day of the week will look like!
 **Day 2** contains 3 directories:
 1. [day_2-template](./Day\ 2/day_2-template) is the project folder used during day 2 of fullstack bootcamp to test out CSS animations and play with SASS/SCSS.
 
-2. [day_2-project](./Day\ 2/day_2-project) is the project created at the end of fullstack-bootcamp day 2. It is a dynamic web page with CSS animations and JavaScript code.
+2. [day_2-project](./Day\ 2/day_2-project) is the project created at the end of fullstack-bootcamp day 1. It is a dynamic web page with CSS animations and JavaScript code.
 
-3. [day_2-final](./Day\ 2/day_2-final) is what day 2 of fullstack bootcamp was intended to create. It is a more complete version of 'day_1-project'. Use this project folder to start on day 3 of fullstack bootcamp.
+3. [day_2-final](./Day\ 2/day_2-final) is what day 2 of fullstack bootcamp was intended to create. It is a more complete version of 'day_2-project'. Use this project folder to start on day 3 of fullstack bootcamp.
 
-*Day 3, Day 4, and Day 5* will be updated as the bootcamp progresses.
+**Day 3** contains 2 directories:
+1. [day-3_project](./Day\ 3/day-3_project) is the project created at the end of fullstack-bootcamp day 2.
 
+2. [day-3_final](.Day\ 3/day-3_final) is what day 3 of fullstack bootcamp was intended to create. It is a more complete version of 'day-3_project'. Use this project folder to start on day 4 of fullstack bootcamp. 
 
-###storeProject branch###
-The storeProject branch contains the project files needed to start Day 2 of the bootcamp. It is the same as [day_1-final](./Day\ 1/day_1-final).
+**Day 4** contains 2 directories:
+1. [day-4_project](./Day\ 4/day-4_project) is the project created at the end of fullstack-bootcamp day 3. 
+
+2. [day_4-final](.Day\ 4/day_4-final) is what day 4 of fullstack bootcamp was intended to create. It is a more complete version of 'day-4_project'. Use this project folder to start on day 4 of fullstack bootcamp.  
+
